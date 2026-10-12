@@ -100,5 +100,20 @@
     "source": "https://framerusercontent.com/images/6niy5yXciE8pOSMCoX4U5E7Ac.png",
     "page": "https://serviin.pt/o-hospital-da-luz-%C3%A9-o-novo-parceiro-serviin",
     "institution": "Hospital da Luz"
+  },
+  "cnic-supplied": {
+    "file": "assets/logos/CNIC.jpg",
+    "source": "User-supplied repository asset",
+    "institution": "CNIC and institutional partners"
+  },
+  "uva-supplied": {
+    "file": "assets/logos/UVa_rojo.png",
+    "source": "User-supplied repository asset",
+    "institution": "Universidad de Valladolid"
+  },
+  "clinic-supplied": {
+    "file": "assets/logos/ClinicBarcelona.jpg",
+    "source": "User-supplied repository asset",
+    "institution": "Hospital Clínic Barcelona"
   }
 }
