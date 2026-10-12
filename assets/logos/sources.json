@@ -1,0 +1,104 @@
+{
+  "uva": {
+    "file": "assets/logos/uva.png",
+    "source": "https://www.uva.es/resources/enterprise/img/logo-cuatricromia-horizontal.png",
+    "institution": "Universidad de Valladolid"
+  },
+  "clinic": {
+    "file": "assets/logos/clinic.png",
+    "source": "https://www.clinicbarcelona.org/build/img/logos/logo-clinic-dark.49de2a6c38d98c1073b17c5e4b278b65.png",
+    "institution": "Hospital Clínic Barcelona"
+  },
+  "ub": {
+    "file": "assets/logos/ub.png",
+    "source": "https://www.clinicbarcelona.org/build/img/logos/logo-ub-dark.526ccc881c827c78eb1b5cb5ce144dd5.png",
+    "institution": "University of Barcelona"
+  },
+  "kcl": {
+    "file": "assets/logos/kcl.svg",
+    "source": "https://www.kcl.ac.uk/SiteElements/2017/images/kcl-logo.svg",
+    "institution": "King’s College London"
+  },
+  "germans-trias": {
+    "file": "assets/logos/germans-trias.png",
+    "source": "https://hospitalgermanstrias.cat/HUGTIP-theme/images/germanstriashospital_verdgrisclar.png",
+    "institution": "Hospital Germans Trias i Pujol"
+  },
+  "pro-cnic": {
+    "file": "assets/logos/pro-cnic.png",
+    "source": "https://www.cnic.es/sites/default/files/logo-procnic-75px.png",
+    "institution": "Fundación Pro CNIC"
+  },
+  "ccmar": {
+    "file": "assets/logos/ccmar.svg",
+    "source": "https://ccmar.ualg.pt/themes/custom/adj3/images/logos/full-logo-white.svg",
+    "institution": "CCMAR Algarve"
+  },
+  "uls-algarve": {
+    "file": "assets/logos/uls-algarve.svg",
+    "source": "https://www.ulsalg.min-saude.pt/wp-content/uploads/sites/2/2024/01/Logo_31.-ULS-ALGARVE.svg",
+    "institution": "ULS Algarve · Hospital Universitário de Faro"
+  },
+  "uls-lisboa-ocidental": {
+    "file": "assets/logos/uls-lisboa-ocidental.svg",
+    "source": "https://www.sns.min-saude.pt/wp-content/uploads/2024/01/27.-ULS-Lisboa-Ocidental.zip",
+    "institution": "ULS Lisboa Ocidental · Hospital de Santa Cruz"
+  },
+  "uls-alentejo-central": {
+    "file": "assets/logos/uls-alentejo-central.svg",
+    "source": "https://www.sns.min-saude.pt/wp-content/uploads/2024/01/30.-ULS-Alentejo-Central.zip",
+    "institution": "ULS Alentejo Central · Hospital do Espírito Santo de Évora"
+  },
+  "corify": {
+    "file": "assets/logos/corify.svg",
+    "source": "https://flow.corifycare.com/static/img/corify-logo.svg",
+    "institution": "Corify Care"
+  },
+  "cnic": {
+    "file": "assets/logos/cnic.png",
+    "source": "https://www.cnic.es/sites/all/themes/custom/cnic_theme/images/logo-slogan-eng.png",
+    "institution": "CNIC"
+  },
+  "ualg": {
+    "file": "assets/logos/ualg.png",
+    "source": "https://ccmar.ualg.pt/sites/default/files/inline-images/UAlg_transparencia_branco_0.png",
+    "institution": "University of Algarve"
+  },
+  "aveiro": {
+    "file": "assets/logos/aveiro.png",
+    "source": "https://api-assets.ua.pt/files/imgs/000/014/715/original.png",
+    "institution": "University of Aveiro"
+  },
+  "i3s": {
+    "file": "assets/logos/i3s.png",
+    "source": "https://portal.i3s.up.pt/I3SEvents/browser/getFile.php?fileid=2091",
+    "institution": "i3S · Universidade do Porto"
+  },
+  "la-caixa": {
+    "file": "assets/logos/la-caixa.png",
+    "source": "https://coglobal.es/wp-content/uploads/2022/04/fundacion-la-caixa-HORIZONTAL-blanco-1-2048x737.png",
+    "institution": "”la Caixa” Foundation"
+  },
+  "philips": {
+    "file": "assets/logos/philips.svg",
+    "source": "https://www.philips.pt/",
+    "note": "Original inline wordmark extracted from official homepage.",
+    "institution": "Philips Healthcare"
+  },
+  "imaging-lab-abc": {
+    "file": "assets/logos/imaging-lab-abc.jpg",
+    "source": "Promo_Poster.pptx — ppt/media/image9.jpeg",
+    "institution": "Imaging Lab by ABC · Algarve Biomedical Centre"
+  },
+  "caixaforum": {
+    "file": "assets/logos/caixaforum.jpg",
+    "source": "https://pbs.twimg.com/profile_images/1438058126910148613/x73ulYZN.jpg",
+    "institution": "CaixaForum Madrid"
+  },
+  "luz": {
+    "file": "assets/logos/luz.png",
+    "source": "https://framerusercontent.com/images/6niy5yXciE8pOSMCoX4U5E7Ac.png",
+    "page": "https://serviin.pt/o-hospital-da-luz-%C3%A9-o-novo-parceiro-serviin",
+    "institution": "Hospital da Luz"
+  }
+}
