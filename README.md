@@ -21,11 +21,11 @@ Check desktop and mobile layouts, keyboard navigation through all three programm
 
 ## Publish
 
-The [deployment workflow](.github/workflows/deploy-pages.yml) publishes the site to **https://cardiotech2027.github.io/** after every push to `main`, including merged pull requests. It can also be run manually from **Actions → Deploy website to GitHub Pages → Run workflow** on `main`.
+The [deployment workflow](.github/workflows/deploy-pages.yml) publishes the site to **https://cardiotechmeet.com/** after every push to `main`, including merged pull requests. It can also be run manually from **Actions → Deploy website to GitHub Pages → Run workflow** on `main`. The deployed `CNAME` file and canonical URLs are configured for `cardiotechmeet.com`.
 
-One-time setup: in this repository’s **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**. Commit and push the workflow together with `index.html`, both stylesheets, `app.js`, the root logo and banner, and `assets/`. A local save or commit alone does not trigger deployment; the commit must be pushed to GitHub.
+To connect the domain, configure DNS with your domain provider: point the apex (`@`) to GitHub Pages using A records `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`; optionally point `www` to `cardiotech2027.github.io` with a CNAME record. Keep unrelated email records. In this repository’s **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions** and set **Custom domain** to `cardiotechmeet.com`. After DNS updates propagate and GitHub provisions the TLS certificate, enable **Enforce HTTPS** in Pages settings. Commit and push the workflow and website files to `main`; a local save or commit alone does not trigger a deployment.
 
-The workflow checks JavaScript syntax and publishes only the website files and assets, including the keynote biography subpage. Source presentations, reference PDFs, and contributor instructions are not included in the deployed artifact. No build step, package installation, personal access token, or custom domain is required. Check the **Actions** tab for deployment status; publication is complete when the workflow succeeds.
+The workflow checks JavaScript syntax and publishes only the website files and assets, including the custom-domain declaration and keynote biography subpage. Source presentations, reference PDFs, and contributor instructions are not included in the deployed artifact. No build step, package installation, or personal access token is required. Check the **Actions** tab for deployment status; publication is complete when the workflow succeeds.
 
 ## Content sources
 

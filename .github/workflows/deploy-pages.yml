@@ -35,7 +35,7 @@ jobs:
       - name: Prepare website files
         run: |
           mkdir -p "$RUNNER_TEMP/site"
-          cp index.html speaker-bios.html styles.css poster-theme.css app.js cardiotech_logo.png CardioTech_banner.png "$RUNNER_TEMP/site/"
+          cp CNAME index.html speaker-bios.html styles.css poster-theme.css app.js cardiotech_logo.png CardioTech_banner.png "$RUNNER_TEMP/site/"
           cp -R assets "$RUNNER_TEMP/site/assets"
           touch "$RUNNER_TEMP/site/.nojekyll"
 
