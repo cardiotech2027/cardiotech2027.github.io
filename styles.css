@@ -493,6 +493,12 @@ summary:focus-visible,
   gap: 50px;
   margin-bottom: 45px;
 }
+.intro-lead {
+  margin-top: 30px;
+  color: var(--muted);
+  font-size: clamp(17px, 1.6vw, 21px);
+  line-height: 1.6;
+}
 .intro-copy {
   max-width: 430px;
   color: var(--muted);
@@ -848,7 +854,12 @@ summary:focus-visible,
 .abstract-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 100px;
+  column-gap: 100px;
+  row-gap: 25px;
+}
+.abstract-grid > .section-title {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
 }
 .abstract-grid > .eyebrow,
 .abstract-grid > div > .eyebrow {
@@ -884,11 +895,21 @@ summary:focus-visible,
   font-size: 13px;
   color: #ffc0c9;
 }
+.deadlines {
+  display: flex;
+  flex-direction: column;
+}
 .deadlines article {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #ffffff29;
   border-radius: 12px;
   padding: 29px;
   background: #ffffff04;
+}
+.deadlines dl {
+  margin-top: auto;
 }
 .deadlines article + article {
   margin-top: 20px;
@@ -907,7 +928,8 @@ summary:focus-visible,
   font-size: 12px;
 }
 .deadlines h3 {
-  font-size: 26px;
+  font-size: clamp(30px, 3.4vw, 46px);
+  margin-top: auto;
   margin-bottom: 15px;
 }
 dl {
@@ -933,6 +955,8 @@ dt {
   color: var(--muted);
 }
 .deadlines dl > div {
+  padding: 20px 0;
+  font-size: 17px;
   border-color: #ffffff1c;
 }
 .deadlines dt {
@@ -943,7 +967,7 @@ dt {
 }
 .registration-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 24px;
 }
 .registration-card {
@@ -1201,7 +1225,7 @@ address {
     font-size: 26px;
   }
   .abstract-grid {
-    gap: 50px;
+    column-gap: 50px;
   }
   .day-tabs strong {
     font-size: 19px;

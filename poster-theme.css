@@ -69,7 +69,7 @@
 }
 .poster-series em {
   display: block;
-  font: italic 600 33px/0.98 var(--poster-serif);
+  font: italic 600 40px/0.98 var(--poster-serif);
   letter-spacing: -0.025em;
 }
 .hero h1 {
@@ -90,7 +90,8 @@
 }
 .hero-description {
   color: var(--muted);
-  max-width: 460px;
+  max-width: none;
+  white-space: nowrap;
 }
 .hero-art {
   position: absolute;
@@ -407,6 +408,9 @@
   .hero-copy {
     width: 78%;
   }
+  .hero-description {
+    white-space: normal;
+  }
   .hero-copy::before {
     inset-inline-end: 0;
   }
@@ -431,7 +435,7 @@
   }
   .deadlines {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 18px;
   }
   .deadlines article + article {
@@ -471,7 +475,7 @@
     font-size: 16px;
   }
   .poster-series em {
-    font-size: 29px;
+    font-size: 34px;
   }
   .hero h1 {
     font-size: clamp(56px, 15vw, 76px);
