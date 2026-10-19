@@ -297,9 +297,26 @@ summary:focus-visible,
   background: #f7e5e8;
 }
 .button-group {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
-  flex-wrap: wrap;
+}
+.button-wide {
+  grid-column: 1 / -1;
+}
+.hero-actions {
+  width: fit-content;
+  max-width: 100%;
+}
+.hero .button-white {
+  border-color: var(--line);
+}
+:root[data-theme="dark"] .hero .button-white {
+  background: var(--surface);
+  color: var(--text);
+}
+:root[data-theme="dark"] .hero .button-white:hover {
+  background: var(--accent-soft);
 }
 .text-link {
   display: inline-flex;
