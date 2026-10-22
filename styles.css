@@ -713,6 +713,47 @@ summary:focus-visible,
   font-size: 20px;
   color: var(--muted);
 }
+.session {
+  align-items: start;
+}
+.session time {
+  padding-top: 6px;
+}
+.session-keynote h3 {
+  color: var(--accent);
+}
+.session:not(.session-keynote) .session-tag {
+  color: var(--text);
+  background: var(--subtle);
+}
+.session-tag + .session-note {
+  margin-top: 10px;
+}
+.session-note {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+.session-speakers {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+.session-break {
+  padding: 14px 0;
+}
+.session-break time {
+  padding-top: 0;
+  font-size: 13px;
+}
+.session-break h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--muted);
+}
 .schedule-note {
   font-size: 12px;
   color: var(--muted);
@@ -1572,6 +1613,9 @@ address {
   .session h3 {
     font-size: 20px;
     line-height: 1.2;
+  }
+  .session-break h3 {
+    font-size: 15px;
   }
   .session-marker {
     display: none;
