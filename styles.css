@@ -516,6 +516,19 @@ summary:focus-visible,
   font-size: clamp(17px, 1.6vw, 21px);
   line-height: 1.6;
 }
+.intro-lead + .intro-lead {
+  margin-top: 18px;
+}
+.intro-events {
+  padding-left: 1.2em;
+}
+.intro-events li + li {
+  margin-top: 8px;
+}
+.intro-events strong {
+  font-weight: 500;
+  color: var(--text);
+}
 .intro-copy {
   max-width: 430px;
   color: var(--muted);
@@ -1185,7 +1198,7 @@ address {
   padding: 0 7px;
   color: var(--muted);
 }
-.satellite-partner {
+.supported-partner {
   grid-column: 1/-1;
   border-top: 1px solid var(--line);
   padding-top: 20px;
@@ -1193,10 +1206,10 @@ address {
   align-items: center;
   gap: 30px;
 }
-.satellite-partner .eyebrow {
+.supported-partner .eyebrow {
   margin: 0;
 }
-.satellite-partner p {
+.supported-partner p {
   font-size: 12px;
 }
 .site-footer {
@@ -1750,10 +1763,10 @@ address {
   .partners p {
     font-size: 13px;
   }
-  .satellite-partner {
+  .supported-partner {
     display: block;
   }
-  .satellite-partner .eyebrow {
+  .supported-partner .eyebrow {
     margin-bottom: 10px;
   }
   .footer-banner {
