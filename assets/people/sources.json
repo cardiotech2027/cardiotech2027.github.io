@@ -20,8 +20,7 @@
   {
     "name": "Ana García-Álvarez",
     "file": "ana-garcia.jpg",
-    "profile": "https://www.clinicbarcelona.org/noticias/dra-ana-garcia-estar-con-un-paciente-en-la-consulta-me-aporta-felicidad-y-lo-disfruto-mucho",
-    "image": "https://www.clinicbarcelona.org/media/cache/960_jpeg/uploads/media/default/0006/65/2f8fd028d5debf66b8c9982381c20ab423038c4a.jpg"
+    "source": "Supplied by the speaker or organisers (Invited/ and Faculty/ folders); cropped to a square"
   },
   {
     "name": "José Tomás Ortiz",
@@ -44,14 +43,12 @@
   {
     "name": "José Javier Fuster",
     "file": "jose-javier-fuster.jpg",
-    "profile": "https://www.cnic.es/es/jose-javier-fuster",
-    "image": "https://www.cnic.es/sites/default/files/jose-javier-fuster.jpg"
+    "source": "Supplied by the speaker or organisers (Invited/ and Faculty/ folders); cropped to a square"
   },
   {
     "name": "Pedro Correia",
     "file": "pedro-correia.png",
-    "profile": "https://conference.utaustinportugal.org/pedro-correia/",
-    "image": "https://conference.utaustinportugal.org/wp-content/uploads/2021/10/Pedro_Correia_sized.png"
+    "source": "Supplied by the speaker or organisers (Invited/ and Faculty/ folders); cropped to a square"
   },
   {
     "name": "António M. Ferreira",
@@ -62,8 +59,7 @@
   {
     "name": "Andreia Pereira",
     "file": "andreia-pereira.jpg",
-    "profile": "https://noticias.up.pt/pessoas-da-up/andreia-pereira-uma-cientista-a-procura-de-solucoes-para-coracoes-partidos/",
-    "image": "https://noticias.up.pt/wp-content/uploads/2023/05/andreia-pereira-i3s-medalha-loreal-2022.jpg"
+    "source": "Supplied by the speaker or organisers (Invited/ and Faculty/ folders); cropped to a square"
   },
   {
     "name": "Carlos Alberola-López",
@@ -97,14 +93,28 @@
   },
   {
     "name": "Andreu Climent",
-    "file": "andreu-climent.jpeg",
-    "profile": "https://ruvid.org/investigador-andreu-climent-mejor-innovador-europeo-del-ano/",
-    "image": "https://ruvid.org/wp-content/uploads/2020/12/RUVID-UPV-ANDREU-CLIMENT3-300x188.jpg"
+    "file": "andreu-climent.jpg",
+    "source": "Supplied by the speaker or organisers (Invited/ and Faculty/ folders); cropped to a square"
   },
   {
     "name": "Francisco Dias Cláudio",
     "file": "francisco-claudio.jpeg",
     "profile": "https://esc365.escardio.org/practice-tools/image-of-the-week/20231115/",
     "image": "https://d1ukaf53hjlapf.cloudfront.net/website_profile_photos/4419a2ca-729d-46df-bbe9-d4c9ec500cdb_2025072109550478.jpg"
+  },
+  {
+    "name": "Annalaura Mastrangelo",
+    "file": "ana-laura-mastrangelo.jpg",
+    "source": "Supplied by the speaker or organisers (Invited/ and Faculty/ folders); cropped to a square"
+  },
+  {
+    "name": "Lino Ferreira",
+    "file": "lino-ferreira.jpg",
+    "source": "Supplied by the speaker or organisers (Invited/ and Faculty/ folders); cropped to a square"
+  },
+  {
+    "name": "Catarina Águas",
+    "file": "catarina-aguas.jpg",
+    "source": "Supplied by the speaker or organisers (Invited/ and Faculty/ folders); cropped to a square"
   }
 ]
